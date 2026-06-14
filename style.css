@@ -110,6 +110,12 @@ nav a {
     color: var(--text-primary);
 }
 
+nav .btn {
+    padding: 0.35rem 0.75rem;
+    font-size: 0.75rem;
+    border-radius: 4px;
+}
+
 .menu-toggle {
     display: none;
     font-size: 1.5rem;
@@ -555,7 +561,23 @@ section {
 .project-card p {
     color: var(--text-secondary);
     font-size: 0.95rem;
+    margin-bottom: 1rem;
+}
+
+.project-details {
+    list-style-type: disc;
+    margin-left: 1.25rem;
     margin-bottom: 1.5rem;
+    color: var(--text-secondary);
+    font-size: 0.9rem;
+}
+
+.project-details li {
+    margin-bottom: 0.45rem;
+}
+
+.project-details li:last-child {
+    margin-bottom: 0;
 }
 
 .project-tags {
